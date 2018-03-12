@@ -1,27 +1,21 @@
 {
-  "name": "mango-cli-example",
+  "name": "mango-cli-test",
   "version": "0.0.0",
-  "description": "Ready to eat mango-cli project",
+  "description": "A set of tests for mango-cli",
   "dependencies": {
   },
   "devDependencies": {
-    "compression": "^1.7.2",
-    "express": "^4.16.2"
   },
   "scripts": {
-    "start": "node server.js",
-    "dev": "PORT=8080 node server.js",
-    "heroku-prebuild": "npm install mango-cli",
-    "heroku-postbuild": "mango build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/manGoweb/mango-cli-example.git"
+    "url": "git+https://github.com/manGoweb/mango-cli-test.git"
   },
   "author": "manGoweb s.r.o. <info@mangoweb.cz> (www.mangoweb.cz)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/manGoweb/mango-cli-example/issues"
+    "url": "https://github.com/manGoweb/mango-cli-test/issues"
   },
-  "homepage": "https://github.com/manGoweb/mango-cli-example#readme"
+  "homepage": "https://github.com/manGoweb/mango-cli-test#readme"
 }
