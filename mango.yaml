@@ -6,7 +6,7 @@ styles:
   - src/styles/print.sass
 scripts:
   - src/scripts/index.js
-  #- src/serviceWorker.js
+  - src/serviceWorker.js
 images:
   - src/images/**/*.{jpg,png}
 sprites:
@@ -25,6 +25,14 @@ buildstamp:
   - dist/scripts/index.js
 data:
   manifest: src/data/manifest.json
+dependencies:
+  - bootstrap@^4.0.0
+  - bourbon@^4.3.3
+  - jquery@^3.3.1
+  - lt-ie-9@^0.1.0
+  - normalize-scss@^7.0.1
+  - popper.js@^1.12.9
+  - stylus-normalize@^3.0.3
 hooks:
-  init: npm install
+  init: mango install
 version: "~1.6.0"
