@@ -35,4 +35,4 @@ dependencies:
   - stylus-normalize@^3.0.3
 hooks:
   init: mango install
-version: "~1.6.0"
+version: ">=1.6.0"
