@@ -28,8 +28,12 @@ export default class Shapes extends Component<ShapesData> {
 			const body = document.body
 
 			wrapper.innerHTML = shapes
+			const firstChildren = wrapper.children.item(0)
 
-			body.insertBefore(wrapper.children.item(0), body.firstChild)
+			if(firstChildren) {
+				body.insertBefore(firstChildren, body.firstChild)
+			}
+
 		}).catch(() => {
 			setTimeout(() => this.injectSprite(), 1e4)
 		})

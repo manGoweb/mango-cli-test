@@ -1,4 +1,4 @@
-const head: HTMLHeadElement = document.head
+const head: HTMLHeadElement | null = document.head
 const noop = () => {
 }
 
@@ -40,5 +40,8 @@ export default (
 
 	}
 
-	head.appendChild(script)
+	if(head) {
+		head.appendChild(script)
+	}
+
 }
