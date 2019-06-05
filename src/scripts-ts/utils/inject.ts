@@ -32,8 +32,8 @@ export default (
 			} else {
 				const keyCast = key as keyof ScriptElementConfig
 
-				if (options[keyCast]) {
-					script[keyCast] = options[keyCast]!
+				if (options[keyCast] !== undefined) {
+					(script as any)[keyCast] = options[keyCast]!
 				}
 			}
 		}
