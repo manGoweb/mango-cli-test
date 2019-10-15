@@ -11,7 +11,9 @@
     "popper.js": "^1.15.0",
     "stylus-normalize": "^3.0.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "svelte": "^3.12.1"
+  },
   "scripts": {},
   "repository": {
     "type": "git",
