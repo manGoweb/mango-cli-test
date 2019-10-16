@@ -10,6 +10,17 @@ import example from './components/example'
 import shapes from './components/shapes'
 import toggler from './components/toggler'
 
+// Svelte
+import Hi from '../scripts-svelte/Hi.svelte'
+
+new Hi({
+	target: document.getElementById('svelte'),
+	props: {
+		name: 'John Wick'
+	}
+})
+
+
 const onJQueryAvailable = ($) => {
 	// Prepare shorthands
 	window.win = $(window)
